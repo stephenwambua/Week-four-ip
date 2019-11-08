@@ -32,3 +32,23 @@ li a{
 li a:hover {
     background-color: rgba(37, 37, 37, 0.979);
 }
+#sizes{
+    align-content: center;
+    text-align: center;
+    margin-top: 3%;
+}
+.col-4{
+    width: 100%;
+}
+.large{
+    border-radius: 200px; 
+    width: 300px;
+}
+.medium{
+    border-radius: 200px;
+    width: 300px
+}
+.small{
+    border-radius: 200px;
+    width: 300px;
+}
