@@ -1,0 +1,10 @@
+@import url("bootstrap.css");
+body{
+    background-color: rgba(15, 15, 15, 0.89);
+}
+#rowone{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/nj-pizza-1500x609.jpg") no-repeat center center/cover;
+    color: white;
+    height: 90%;    
+}
+
