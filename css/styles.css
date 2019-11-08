@@ -7,4 +7,11 @@ body{
     color: white;
     height: 90%;    
 }
-
+.nav-bar{
+    text-align: center;
+    padding-top: 5%;
+}
+.welcome{
+    margin-top: 7%;
+    text-align: center;
+}
