@@ -5,7 +5,17 @@ body{
 #rowone{
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/nj-pizza-1500x609.jpg") no-repeat center center/cover;
     color: white;
-    height: 90%;    
+    height: 100%;    
+}
+#secondrow{
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+}
+#thirdrow{
+    color: white;
+    margin-top: 3%;
+    text-align: center;
 }
 .nav-bar{
     text-align: center;
@@ -36,19 +46,20 @@ li a:hover {
     align-content: center;
     text-align: center;
     margin-top: 3%;
+    color: white;
 }
 .col-4{
     width: 100%;
 }
 .large{
     border-radius: 200px; 
-    width: 300px;
+    width: 230px;
 }
 .medium{
     border-radius: 200px;
-    width: 300px
+    width: 230px
 }
 .small{
     border-radius: 200px;
-    width: 300px;
+    width: 230px;
 }
