@@ -5,10 +5,10 @@ body{
 #rowone{
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/nj-pizza-1500x609.jpg") no-repeat center center/cover;
     color: white;
-    height: 100%;    
+    height: 100%;  
 }
 #secondrow{
-    /* color: white; */
+    color:  rgb(255, 145, 0);
     margin-top: 3%;
     text-align: center;
     margin-right: 100px;
@@ -17,7 +17,7 @@ body{
     padding-top: 20px;
 }
 #thirdrow{
-    color: rgb(255, 145, 0);
+    color: rgb(207, 120, 7);
     margin-top: 3%;
     text-align: center;
 }
@@ -50,7 +50,7 @@ li a:hover {
     align-content: center;
     text-align: center;
     margin-top: 3%;
-    color: white;
+    color: rgb(245, 169, 70)
 }
 .col-4{
     width: 100%;
@@ -68,6 +68,4 @@ li a:hover {
     width: 280px;
     margin-left: 0px;
 }
-#small{
-    background: rgba(255, 255, 255, 0.548);
-}
+
