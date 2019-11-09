@@ -33,17 +33,17 @@ h2{
     font-family: 'Libre Baskerville', serif;
     font-size: 40px;
 }
-li{
+#rowone li{
     display: inline-block;
 }
-li a{
+#rowone li a{
     display: block;
     color: white;
     text-align: center;
     padding: 10px 50px;
     text-decoration: none;
 } 
-li a:hover {
+#rowone li a:hover {
     background-color: rgba(37, 37, 37, 0.979);
 }
 #sizes{
@@ -68,4 +68,3 @@ li a:hover {
     width: 280px;
     margin-left: 0px;
 }
-
