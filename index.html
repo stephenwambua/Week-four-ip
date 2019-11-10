@@ -2,6 +2,7 @@
     <head>
         <title>Pizza inn</title>
         <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
         <div class="container-fluid">
@@ -28,14 +29,29 @@
             <div class="button">
               <button id="myBtn">make your oder today</button>
               <h2>You oder and we deliver!!!</h2>
+
+              <div id="myModal" class="modal">
               <div class="modal-content">
                 <span class="close">close</span>
-                <select name="pizza-sizes" id="psizes">
-                  <option class="heading" selected>- size -</option>
-                  <option value="1">Very small</option>
-                  <option value="3">Normal</option>
-                  <option value="4">Medium-large</option>
+                <select name="pizza-sizes" id="psizes" required>
+                  <option value="500" id="pSmall">small</option>
+                  <option value="800" id="pMedium">Medium</option>
+                  <option value="1100" id="pLarge">large</option>
                 </select>
+                <select name="pizza-crusts" id="pcrusts" required>
+                  <option value="100" id="pcrispy">Crispy</option>
+                  <option value="200" id="pstuffed">Stuffed</option>
+                  <option value="300" id="pGluttenFree">Gluten Free</option>
+                </select>
+                <select name="pizza-crusts" id="pTopping" required>
+                  <option value="100" id="pcheese">Cheese</option>
+                  <option value="200" id="ppepperoni">Pepperoni</option>
+                  <option value="300" id="pveggies">Veggies</option>
+                  <option value="300" id="pmeat">Meat</option>
+                </select>
+                <input type="number" id="pizzano" required>
+                <button id="checkout">Checkout</button>
+              </div>
               </div>
             </div>
             </div>
@@ -72,6 +88,10 @@
                   </ul>
                 </div>
               </div>
-        </div>       
+        </div>
+
+        
+      <script src="js/script.js"></script>     
+
     </body>
 </html>
