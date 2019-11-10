@@ -33,10 +33,10 @@ h2{
     font-family: 'Libre Baskerville', serif;
     font-size: 40px;
 }
-#rowone li{
+li{
     display: inline-block;
 }
-#rowone li a{
+li a{
     display: block;
     color: white;
     text-align: center;
@@ -67,4 +67,42 @@ h2{
     border-radius: 200px;
     width: 280px;
     margin-left: 0px;
+}
+button{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.44;
+    font-family: Open Sans,sans-serif;
+    background-color: #e4252f;
+    padding: .625rem .9375rem;
+    border-radius: 31.25rem;
+    max-width: 20rem;
+}
+.button{
+    margin-top: 10%;
+    text-align: center;
+}
+.modal{
+    display: none;
+    position: fixed;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+} 
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
