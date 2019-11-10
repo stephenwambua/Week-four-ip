@@ -5,9 +5,10 @@ $( "#checkout" ).click(function() {
     var crust = parseInt($("#pcrusts option:selected").val(),10); 
     var ptoppings = parseInt($("#pTopping option:selected").val(),10); 
     var pizzaNumber = parseInt($("#pizzano").val(),10); 
-    console.log(pizzaNumber)
-    totalCosts=(pizza+crust+ptoppings)*pizzaNumber;
-   alert("totoal is " + totalCosts);
+    var Delivery = parseInt($("#delivery").val(),10);
+    totalCosts=((pizza+crust+ptoppings)*pizzaNumber);
+   alert("totoal is " + totalCosts+"And the delivery fee is:"+Delivery);
+  
 })
 
 // Checkout end
