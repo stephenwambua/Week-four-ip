@@ -34,32 +34,35 @@
               <div id="myModal" class="modal">
               <div class="modal-content">
                 <span class="close">close</span>
+                Select the Size 
                 <select name="pizza-sizes" id="psizes" required>
                   <option value="500" id="pSmall">small</option>
                   <option value="800" id="pMedium">Medium</option>
-                  <option value="1100" id="pLarge">large</option>
+                  <option value="1200" id="pLarge">large</option>
                 </select>
-                <select name="pizza-crusts" id="pcrusts" required>
+                Select type of Crust 
+               <select name="pizza-crusts" id="pcrusts" required>
                   <option value="100" id="pcrispy">Crispy</option>
                   <option value="200" id="pstuffed">Stuffed</option>
                   <option value="300" id="pGluttenFree">Gluten Free</option>
                 </select>
+                Select type of toping
                 <select name="pizza-crusts" id="pTopping" required>
                   <option value="100" id="pcheese">Cheese</option>
                   <option value="200" id="ppepperoni">Pepperoni</option>
                   <option value="300" id="pveggies">Veggies</option>
                   <option value="300" id="pmeat">Meat</option>
                 </select>
-                <h1>Select Delivery</h1>
+                Choose the quantitly.
+                <input type="number" id="pizzano" required min="1" max="1000">
+                Select Delivery Destination
                 <select name="delivery" id="delivery" required>
                   <option value="0" id="nodelivery">No Delivery</option>
                   <option value="200" id="cbd">CBD</option>
                   <option value="300" id="ngong">Ngong Road</option>
                   <option value="300" id="athiriver">Athi River</option>
                 </select>
-                <input type="number" id="pizzano" required>
                 <button id="checkout">Checkout</button>
-               
               </div>
               </div>
             </div>
