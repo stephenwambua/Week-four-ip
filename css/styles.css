@@ -1,9 +1,9 @@
 @import url("bootstrap.css");
 body{
-    background-color: rgba(15, 15, 15, 0.89);
+    background-color: rgba(15, 15, 15, 0.863);
 }
 #rowone{
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/nj-pizza-1500x609.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../images/nj-pizza-1500x609.jpg") no-repeat center center/cover;
     color: white;
     height: 100%;  
 }
@@ -90,22 +90,22 @@ button{
     z-index: auto;
     padding-top: 100px;
     overflow: auto;
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4)   
+    /* background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4)    */
 }
 .modal-content {
-    background-color: #ffffff91;
+    background-color: #050505da;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
-    height: 50%;
+    height: 70%;
 }
 .close{
-    color: #aaaaaa;
-    float: right;
+    color: #f80101;
     font-size: 28px;
     font-weight: bold;
+    text-align: right;
 } 
 .close:hover,
 .close:focus {
@@ -115,4 +115,13 @@ button{
 }
 select{
     width: 150px;
+    align-self: center;
+}
+input{
+    width: 50px;
+    align-self: center;
+}
+#checkout{
+    align-self: center;
+    margin-top: 2%;
 }

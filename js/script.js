@@ -6,7 +6,7 @@ $( "#checkout" ).click(function() {
     var ptoppings = parseInt($("#pTopping option:selected").val(),10); 
     var pizzaNumber = parseInt($("#pizzano").val(),10); 
     var Delivery = parseInt($("#delivery").val(),10);
-    totalCosts=((pizza+crust+ptoppings)*pizzaNumber);
+    totalCosts=((pizza+crust+ptoppings)*pizzaNumber)+Delivery;
    alert("totoal is " + totalCosts+"And the delivery fee is:"+Delivery);
   
 })
