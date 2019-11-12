@@ -92,11 +92,11 @@ button{
     z-index: auto;
     padding-top: 100px;
     overflow: auto;
-    /* background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4)    */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4)   
 }
 .modal-content {
-    background-color: #050505da;
+    background-color: #ece6e6da;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
@@ -154,4 +154,9 @@ input{
 .table{
     background: white;
     margin: 10%;
+}
+#mybtn{
+    align-self: center;
+    text-align: center;
+    margin-left: 45%;
 }
