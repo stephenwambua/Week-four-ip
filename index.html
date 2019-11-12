@@ -1,115 +1,120 @@
 <html>
     <head>
-        <title>Pizza inn</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <title>Pizza inn</title>
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
-        <div class="container-fluid">
-          <div class="" id="rowone">
-            <div class="nav-bar">
-              <ul>
-                <li><a href="#">Home</a></li>
-								<li><a href="#">Products</a>
-								</li>					
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Payment module</a></li>
-              </ul>
-						</div>
-						<div class="welcome">
-							<h2>Welcome to <b>Pizza-Ways</b></h2>
-							<h2>for the most amaizing pizza deals</h2>
-							<p>warning you may get hungry after visiting our site</p>
-            </div>
-              </div>
-              </div>
-            </div>
-            </div>
-            <div class="row" id="secondrow">
-              <div class="col-6" id="smallimg">
-                <img src="images/tanos-pizza-pepperoni-tomato-mushroom-400x400.png" alt="nill" class="small">
-              </div>
-              <div class="col-6" id="small">
-                <p>About Pizza-Ways Site</p>
-                <p>we offer a variety of pizzas at different prices and offers.</p>
-                <p>Check out our new site, official Pizza-ways website for the fastest way to order your favorite pizza, desserts, drinks and more!. We’ve designed our website with you our esteemed customer in mind. From the ground up, making it even easier to find deals, earn free pizza and earn Rewards</p>
-              </div>
-            </div>
-            <div class="row" id="menu">
-              <div class="col-6">
-                <p>Menu</p>
-                <p>Allow us to make you your favorite meal to its perfection.</p>
-                <p>Feel free to start with one of our popular recipes like Ultimate Cheese pizza, Pepperoni, Meat or Veggies. you can also choose to Build your own pizza by choosing one of our crust types such as Original Pan Pizza, Hand Tossed Pizza, Thin ‘N Crispy or Original Stuffed Crust and then add your favorite toppings.</p>
-              </div>
-              <div class="col-6"> 
-                <img src="images/pizza2.jpg" alt="nill" class="medium">
-              </div>
-            </div>
-            <div class="row" id="thirdrow">
-              <div class="col-6">   
-                <img src="images/Chicken-Taco-Pizza-400x400.jpg" alt="nill" class="large">
-              </div>
-              <div class="col-6" id="list">
-                <div class="prices">
-                  <ul>
-                    <p>Prices</p>
-                      <li>Large: 1200</li> <br>
-                      <li>Medium: 800</li><br>
-                      <li>Small: 500</li>
-                    </ul>
-                    <select id="psizes" required>
-                        <option value="500" text="Small" id="pSmall">small</option>
-                        <option value="800" text="Medium" id="pMedium">Medium</option>
-                        <option value="1200" text="Large" id="pLarge">large</option>
-                    </select>
-                  </div>
-                  <div class="toppings">
-                      <ul>
-                        <p>Toppings</p>
-                        <li>Cheese: 200</li> <br>
-                        <li>Pepperoni: 400</li><br>
-                        <li>Meat: 300</li><br>
-                      </ul>
-                      <select name="pizza-crusts" id="pTopping" required>
-                          <option value="200" text="Cheese" id="pcheese">Cheese</option>
-                          <option value="400" text="Pepperoni" id="ppepperoni">Pepperoni</option>
-                          <option value="150" text="Veggies" id="pveggies">Veggies</option>
-                          <option value="300" text="Meat" id="pmeat">Meat</option>
-                        </select>
-                  </div>
-                  <div class="crust">
-                    <ul>
-                      <p>Crust</p>
-                      <li>Crispy: 100</li> <br>
-                      <li>Stuffed: 200</li><br>
-                      <li>Gluten-free: 300</li>
-                    </ul> 
-                    <select name="pizza-crusts" id="pcrusts" required>
-                        <option value="100" id="pcrispy" text="Crispy">Crispy</option>
-                        <option value="200" id="pstuffed" text="Stuffed">Stuffed</option>
-                        <option value="300" id="pGluttenFree" text="Gluten free">Gluten Free</option>
-                    </select>
-                      Quantity 
-                     <input type="number" id="pizzano" required min="1" max="100" value="1" required>
-                  </div><br>
-                  <div class="btncheck">
-                    <button id="confirm">Confirm</button>
-                  </div>
-                </div>
-              </div>
-          <div class="row">
-            <table class="table" id="myTable">
-              <tr>
-                <td>Size</td>
-                <td>Toppings</td>
-                <td>Crust</td>
-                <td>Quantity</td>
-                <td>Amount in Ksh</td>
-              </tr>
-            </table>
+      <div class="container-fluid">
+        <div class="" id="rowone">
+          <div class="nav-bar">
+            <ul>
+              <li><a href="#">Home</a></li>
+							<li><a href="#">Products</a>
+							</li>					
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Payment module</a></li>
+            </ul>
+					</div>
+					<div class="welcome">
+						<h2>Welcome to <b>Pizza-Ways</b></h2>
+						<h2>for the most amaizing pizza deals</h2>
+						<p>warning you may get hungry after visiting our site</p>
           </div>
-          <button id="myBtn">Checkout</button>
-        </div>   
+        </div>
+        </div>
+        <div class="row" id="secondrow">
+          <div class="col-6" id="smallimg">
+            <img src="images/tanos-pizza-pepperoni-tomato-mushroom-400x400.png" alt="nill" class="small">
+          </div>
+          <div class="col-6" id="small">
+            <p>About Pizza-Ways Site</p>
+            <p>we offer a variety of pizzas at different prices and offers.</p>
+            <p>Check out our new site, official Pizza-ways website for the fastest way to order your favorite pizza, desserts, drinks and more!. We’ve designed our website with you our esteemed customer in mind. From the ground up, making it even easier to find deals, earn free pizza and earn Rewards</p>
+          </div>
+        </div>
+        <div class="row" id="menu">
+          <div class="col-6">
+            <p>Menu</p>
+            <p>Allow us to make you your favorite meal to its perfection.</p>
+            <p>Feel free to start with one of our popular recipes like Ultimate Cheese pizza, Pepperoni, Meat or Veggies. you can also choose to Build your own pizza by choosing one of our crust types such as Original Pan Pizza, Hand Tossed Pizza, Thin ‘N Crispy or Original Stuffed Crust and then add your favorite toppings.</p>
+          </div>
+          <div class="col-6"> 
+            <img src="images/pizza2.jpg" alt="nill" class="medium">
+          </div>
+        </div>
+        <div class="row" id="thirdrow">
+          <div class="col-6">   
+            <img src="images/Chicken-Taco-Pizza-400x400.jpg" alt="nill" class="large">
+          </div>
+          <div class="col-6" id="list">
+            <div class="prices">
+              <ul>
+                <p>Prices</p>
+                <li>Large: 1200</li> <br>
+                <li>Medium: 800</li><br>
+                <li>Small: 500</li>
+                </ul>
+              <select id="psizes" required>
+                <option value="500" text="Small" id="pSmall">small</option>
+                <option value="800" text="Medium" id="pMedium">Medium</option>
+                <option value="1200" text="Large" id="pLarge">large</option>
+              </select>
+            </div>
+            <div class="toppings">
+              <ul>
+                <p>Toppings</p>
+                <li>Cheese: 200</li> <br>
+                <li>Pepperoni: 400</li><br>
+                <li>Meat: 300</li><br>
+              </ul>
+              <select name="pizza-crusts" id="pTopping" required>
+              	<option value="200" text="Cheese" id="pcheese">Cheese</option>
+              	<option value="400" text="Pepperoni" id="ppepperoni">Pepperoni</option>
+              	<option value="150" text="Veggies" id="pveggies">Veggies</option>
+              	<option value="300" text="Meat" id="pmeat">Meat</option>
+              </select>
+              </div>
+              <div class="crust">
+                <ul>
+                  <p>Crust</p>
+                  <li>Crispy: 100</li> <br>
+                  <li>Stuffed: 200</li><br>
+                  <li>Gluten-free: 300</li>
+                </ul> 
+                <select name="pizza-crusts" id="pcrusts" required>
+                  <option value="100" id="pcrispy" text="Crispy">Crispy</option>
+                  <option value="200" id="pstuffed" text="Stuffed">Stuffed</option>
+                  <option value="300" id="pGluttenFree" text="Gluten free">Gluten Free</option>
+                </select>
+                  Quantity 
+                <input type="number" id="pizzano" required min="1" max="100" value="1" required>
+                </div><br>
+                <div class="btncheck">
+                	<button id="confirm">Confirm</button>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+						<div id="myModal" class="modal">
+									<div class="modal-content">
+										<span class="close">&times;</span>
+										<table class="table" id="myTable">
+											<tr>
+												<td>Size</td>
+												<td>Toppings</td>
+												<td>Crust</td>
+												<td>Quantity</td>
+												<td>Amount in Ksh</td>
+											</tr>
+										</table>
+										<button id="addToCart">Add more</button>
+										<button id="checkout">Checkout</button>
+									</div>	
+								</div>
+          </div>
+				</div>
+			</div>	 
       <script src="js/script.js"></script>     
     </body>
 </html>

@@ -77,7 +77,7 @@ button{
     background-color: #e4252f;
     padding: .625rem .9375rem;
     border-radius: 31.25rem;
-    max-width: 20rem;
+    max-width: 10rem;
 }
 .button{
     margin-top: 10%;
@@ -101,7 +101,7 @@ button{
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
-    height: 70%;
+    height: relative;
 }
 .close{
     color: #f80101;
@@ -126,6 +126,9 @@ input{
 #checkout{
     align-self: center;
     margin-top: 2%;
+}
+#addToCart{
+    align-self: center;
 }
 #list{
     display: inline;
@@ -152,11 +155,5 @@ input{
     align-self: center;   
 }
 .table{
-    background: white;
-    margin: 10%;
-}
-#mybtn{
-    align-self: center;
-    text-align: center;
-    margin-left: 45%;
-}
+    background: white;  
+} 
