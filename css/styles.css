@@ -1,11 +1,13 @@
 @import url("bootstrap.css");
 body{
     background-color: rgba(15, 15, 15, 0.863);
+    width: 100%;
 }
 #rowone{
     background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../images/nj-pizza-1500x609.jpg") no-repeat center center/cover;
     color: white;
     height: 100%;  
+    width: 100%;
 }
 #secondrow{
     color:  rgb(255, 145, 0);
@@ -18,8 +20,7 @@ body{
 }
 #thirdrow img{
     color: rgb(207, 120, 7);
-    margin-top: 3%;
-    /* text-align: center; */   
+    margin-top: 3%; 
 }
 .nav-bar{
     text-align: center;
@@ -136,24 +137,30 @@ input{
 .prices{
     color: rgb(207, 120, 7);
     float: left;
-    margin: 2%;
+    margin: 3%;
 }
 .toppings{
     color: rgb(207, 120, 7);
     float: left;
-    margin: 2%;
+    margin: 3%;
 }
 .crust{
     color: rgb(207, 120, 7);
     float: left;
-    margin: 2%;
+    margin: 3%;
 }
 #list{
     text-align: center;
 }
 .btncheck{
-    align-self: center;   
+    align-self: center;
+    display: inline-block;
+    padding-top: 10px;
 }
 .table{
     background: white;  
 } 
+#ChickenTaco{
+    align-self: center;
+    text-align: center;
+}
