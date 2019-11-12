@@ -29,7 +29,7 @@ var deliverCost = 250;
 checkOutBtn.onclick = function() {
   var chekingOut= prompt("Would you like your pizza delivered? if yes please state where.");
   if (chekingOut != null) {
-    alert(`Your Request has been received. Delivery fee is 250/= and your total cost is ${totalCosts + deliverCost}`);
+    alert(`Your Request has been received. Your delivery fee is Ksh 250. Thetotal cost is ${totalCosts + deliverCost}`);
   }
 }
 var modal = document.getElementById("myModal");
