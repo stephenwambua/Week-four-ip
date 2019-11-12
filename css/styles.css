@@ -3,7 +3,7 @@ body{
     background-color: rgba(15, 15, 15, 0.863);
 }
 #rowone{
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../images/nj-pizza-1500x609.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../images/nj-pizza-1500x609.jpg") no-repeat center center/cover;
     color: white;
     height: 100%;  
 }
@@ -16,10 +16,10 @@ body{
     padding-bottom: 20px;
     padding-top: 20px;
 }
-#thirdrow{
+#thirdrow img{
     color: rgb(207, 120, 7);
     margin-top: 3%;
-    text-align: center;
+    /* text-align: center; */   
 }
 .nav-bar{
     text-align: center;
@@ -46,7 +46,7 @@ li a{
 #rowone li a:hover {
     background-color: rgba(37, 37, 37, 0.979);
 }
-#sizes{
+#menu{
     align-content: center;
     text-align: center;
     margin-top: 3%;
@@ -82,6 +82,8 @@ button{
 .button{
     margin-top: 10%;
     text-align: center;
+    align-self: center;
+    float: right;
 }
 .modal{
     display: none;
@@ -124,4 +126,32 @@ input{
 #checkout{
     align-self: center;
     margin-top: 2%;
+}
+#list{
+    display: inline;
+}
+.prices{
+    color: rgb(207, 120, 7);
+    float: left;
+    margin: 2%;
+}
+.toppings{
+    color: rgb(207, 120, 7);
+    float: left;
+    margin: 2%;
+}
+.crust{
+    color: rgb(207, 120, 7);
+    float: left;
+    margin: 2%;
+}
+#list{
+    text-align: center;
+}
+.btncheck{
+    align-self: center;   
+}
+.table{
+    background: white;
+    margin: 10%;
 }

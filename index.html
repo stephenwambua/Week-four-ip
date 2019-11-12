@@ -26,12 +26,7 @@
 							<h2>for the most amaizing pizza deals</h2>
 							<p>warning you may get hungry after visiting our site</p>
             </div>
-            <div class="button">
-              <button id="myBtn">make your oder today</button>
-              
-              <h2>You oder and we deliver!!!</h2>
-
-              <div id="myModal" class="modal">
+              <!-- <div id="myModal" class="modal">
               <div class="modal-content">
                 <span class="close">close</span>
                 Select the Size 
@@ -48,9 +43,9 @@
                 </select>
                 Select type of toping
                 <select name="pizza-crusts" id="pTopping" required>
-                  <option value="100" id="pcheese">Cheese</option>
-                  <option value="200" id="ppepperoni">Pepperoni</option>
-                  <option value="300" id="pveggies">Veggies</option>
+                  <option value="200" id="pcheese">Cheese</option>
+                  <option value="400" id="ppepperoni">Pepperoni</option>
+                  <option value="150" id="pveggies">Veggies</option>
                   <option value="300" id="pmeat">Meat</option>
                 </select>
                 Choose the quantitly.
@@ -64,8 +59,8 @@
                   <option value="200" id="kikuyu">Kikuyu</option>
                   <option value="300" id="ngong">Ngong</option>
                   <option value="400" id="limuru">limuru</option>
-                </select> 
-                <button id="checkout">Checkout</button>
+                </select>  -->
+                <!-- <button id="checkout">Checkout</button> -->
               </div>
               </div>
             </div>
@@ -80,7 +75,7 @@
                 <p>Check out our new site, official Pizza-ways website for the fastest way to order your favorite pizza, desserts, drinks and more!. We’ve designed our website with you our esteemed customer in mind. From the ground up, making it even easier to find deals, earn free pizza and earn Rewards</p>
               </div>
             </div>
-            <div class="row" id="sizes">
+            <div class="row" id="menu">
               <div class="col-6">
                 <p>Menu</p>
                 <p>Allow us to make you your favorite meal to its perfection.</p>
@@ -91,22 +86,69 @@
               </div>
             </div>
             <div class="row" id="thirdrow">
-                <div class="col-6">   
-                  <img src="images/Chicken-Taco-Pizza-400x400.jpg" alt="nill" class="large">
-                </div>
-                <div class="col-6" id="list">
-                  <p>PRICES</p>
+              <div class="col-6">   
+                <img src="images/Chicken-Taco-Pizza-400x400.jpg" alt="nill" class="large">
+              </div>
+              <div class="col-6" id="list">
+                <div class="prices">
                   <ul>
-                    <li>Large: 1200</li> <br>
-                    <li>Medium: 800</li><br>
-                    <li>Small: 500</li>
-                  </ul>
+                    <p>Prices</p>
+                      <li>Large: 1200</li> <br>
+                      <li>Medium: 800</li><br>
+                      <li>Small: 500</li>
+                    </ul>
+                    <select id="psizes" required>
+                        <option value="500" text="Small" id="pSmall">small</option>
+                        <option value="800" text="Medium" id="pMedium">Medium</option>
+                        <option value="1200" text="Large" id="pLarge">large</option>
+                    </select>
+                  </div>
+                  <div class="toppings">
+                      <ul>
+                        <p>Toppings</p>
+                        <li>Cheese: 200</li> <br>
+                        <li>Pepperoni: 400</li><br>
+                        <li>Meat: 300</li><br>
+                      </ul>
+                      <select name="pizza-crusts" id="pTopping" required>
+                          <option value="200" text="Cheese" id="pcheese">Cheese</option>
+                          <option value="400" text="Pepperoni" id="ppepperoni">Pepperoni</option>
+                          <option value="150" text="Veggies" id="pveggies">Veggies</option>
+                          <option value="300" text="Meat" id="pmeat">Meat</option>
+                        </select>
+                  </div>
+                  <div class="crust">
+                    <ul>
+                      <p>Crust</p>
+                      <li>Crispy: 100</li> <br>
+                      <li>Stuffed: 200</li><br>
+                      <li>Gluten-free: 300</li>
+                    </ul> 
+                    <select name="pizza-crusts" id="pcrusts" required>
+                        <option value="100" id="pcrispy" text="Crispy">Crispy</option>
+                        <option value="200" id="pstuffed" text="Stuffed">Stuffed</option>
+                        <option value="300" id="pGluttenFree" text="Gluten free">Gluten Free</option>
+                    </select>
+                      Quantity 
+                     <input type="number" id="pizzano" required min="1" max="100" value="1" required>
+                  </div><br>
+                  <div class="btncheck">
+                    <button id="confirm">Confirm</button>
+                  </div>
                 </div>
               </div>
-        </div>
-
-        
+          <div class="row">
+            <table class="table" id="myTable">
+              <tr>
+                <td>Size</td>
+                <td>Toppings</td>
+                <td>Crust</td>
+                <td>Quantity</td>
+                <td>Amount</td>
+              </tr>
+            </table>
+          </div>
+        </div>   
       <script src="js/script.js"></script>     
-
     </body>
 </html>
